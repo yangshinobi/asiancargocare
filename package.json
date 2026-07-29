@@ -1,0 +1,8 @@
+{
+  "name": "asiancargocare",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p .vercel/output/static && cp -r index.html assets public favicon.ico og-image.png placeholder.svg robots.txt sitemap.xml scripts lovable-uploads .vercel/output/static/ 2>/dev/null || true"
+  }
+}
